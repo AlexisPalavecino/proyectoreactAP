@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .conteiner {
+        header {
+            .contMenu {
+                label {
+                    display: block;
+                }
+                #btn-menu:checked ~ .menu {
+                    margin: 0;
+                }
+                .menu {
+                    position: absolute;
+                    background: #183b03;
+                    width: 50%;
+                    margin-left: -150%;
+                    flex-direction: column;
+                    transition: all 0.5s;
+
+                    ul {
+                        flex-direction: column;
+                        li {
+                            border-top: 1px solid #fff;
+                        }
+                    }
+                }
+                span {
+                    .logo {
+                        display: flex;
+                        justify-content: flex-end;
+                        height: 100%;
+                    }
+                }
+            }
+
+            main {
+                .cards {
+                    .card {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

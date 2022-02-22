@@ -1,0 +1,9 @@
+@mixin grid {
+    grid-template-areas:
+                        "header header header"
+                         "main main main"
+                          "footer footer footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    
+}

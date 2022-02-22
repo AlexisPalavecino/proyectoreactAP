@@ -1,0 +1,32 @@
+
+/* mapas */
+
+$gold: (
+    color-gold: #cf9500,
+    bg-gold: white,
+    border-gold: 1px solid black,
+    font-gold: 50px,
+
+
+);
+
+$platinum: (
+
+    color-platinum: #a39f95,
+    bg-platinum: #910415,
+    border-platinum: 1px solid black,
+    font-platinum: 50px,
+
+);
+
+.gold {
+    background-color: map-get($map: $gold , $key: bg-gold);
+    border: map-get($map: $gold, $key: border-gold );
+    font-size: map-get($map: $gold, $key:font-gold);
+} 
+
+.platinum {
+    background-color: map-get($map: $platinum , $key: bg-platinum);
+    border: map-get($map: $platinum, $key: border-platinum );
+    font-size: map-get($map: $platinum, $key:font-platinum);
+} 

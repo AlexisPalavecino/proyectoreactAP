@@ -1,0 +1,16 @@
+/* estilos html nosotros */
+
+.conteiner {
+    main {
+        .contNosotros {
+            display: flex;
+            width: 100%;
+            .imgbanner {
+                width: 90%;
+            }
+            .texto {
+                font-size: 18px;
+            }
+        }
+    }
+}
